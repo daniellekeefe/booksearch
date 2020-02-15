@@ -2,7 +2,7 @@
 
 <h4 align="center">Full stack application<h4>
 
-![Screen Shot](/public/images/screenshot.png?raw=true "Optional Title")
+![app](client/public/images/screenshot.gif)
 
 ## Description
 
@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment 
 
-This App is deployed on Heroku: [Google Books Search](add heroku app)
+This App is deployed on Heroku: [Google Books Search](https://dkbooksearch.herokuapp.com/)
 
 ## Technologies used
 
