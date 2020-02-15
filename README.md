@@ -2,7 +2,7 @@
 
 <h4 align="center">Full stack application<h4>
 
-![app](client/public/images/screenshot.gif)
+add ss
 
 ## Description
 
@@ -15,14 +15,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment 
 
-This App is deployed on Heroku: [Google Books Search](https://google-books-search-vb.herokuapp.com/)
+This App is deployed on Heroku: [Google Books Search](add heroku app)
 
 ## Technologies used
 
 MVC design pattern: Model, View, Controller.
 
 <h2 align="center">
-<img alt="mern" src="client/public/images/mern.jpg" width="50%">
+<img alt="mern" src="addimgg" width="50%">
 </h2>
 
 - [MongoDB](mongodb.com)
@@ -53,4 +53,4 @@ MVC design pattern: Model, View, Controller.
 
 ## Author
 
-Victoire Baron | [Victoire44](https://github.com/Victoire44)
+Danielle Keefe |(https://github.com/daniellekeefe/booksearch)
