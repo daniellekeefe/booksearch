@@ -2,7 +2,7 @@
 
 <h4 align="center">Full stack application<h4>
 
-add ss
+![Screen Shot](/public/images/screenshot.png?raw=true "Optional Title")
 
 ## Description
 
