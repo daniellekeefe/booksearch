@@ -15,11 +15,14 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
-app.use(routes)
+app.use(routes);
 
 // Connect to the Mongo DB
 //mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
-mongoose.connect(process.env.MONGODB_URI || "mongodb://dkeefe:Cabinwifi248@ds251948.mlab.com:51948/heroku_w2m8558v");
+mongoose.connect(
+  process.env.MONGODB_URI ||
+    "mongodb://dkeefe:Cabinwifi248@ds251948.mlab.com:51948/heroku_w2m8558v"
+);
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });

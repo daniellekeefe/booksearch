@@ -1,14 +1,17 @@
 nav {
-    background-color: rgb(255,143,111)
+    background-color: black;
 }
 
 a {
     text-decoration: none;
-    color: white
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
 }
- a:hover {
+
+a:hover {
     text-decoration: underline;
-    color: white
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar-brand {
