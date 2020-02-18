@@ -12,8 +12,8 @@ class Search extends React.Component {
   componentDidMount() {
     this.searchBook();
   }
-
-  makeBook = bookData => {
+//defineing what will be returned for the book input into the search field
+  defineBook = bookData => {
     return {
       _id: bookData.id,
       title: bookData.volumeInfo.title,
@@ -28,7 +28,7 @@ class Search extends React.Component {
     API.getBook(query)
       .then(res =>
         this.setState({
-          books: res.data.items.map(bookData => this.makeBook(bookData))
+          books: res.data.items.map(bookData => this.defineBook(bookData))
         })
       )
       .catch(err => console.error(err));
@@ -46,7 +46,7 @@ class Search extends React.Component {
     event.preventDefault();
     this.searchBook(this.state.search);
   };
-
+//show results
   render() {
     return (
       <div>

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+//nav bar https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+//location check https://developer.mozilla.org/en-US/docs/Web/API/Location
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg text-light">
