@@ -24,5 +24,5 @@ mongoose.connect(
     "mongodb://dkeefe:Cabinwifi248@ds251948.mlab.com:51948/heroku_w2m8558v"
 );
 app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  console.log(`API server now on port ${PORT}!`);
 });

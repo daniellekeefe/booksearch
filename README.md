@@ -1,27 +1,23 @@
 # Book Search
 
-<h4 align="center">Full stack application<h4>
-
 ![app](client/public/images/screenshot.gif)
 
 ## Description
 
 React-based Book Search app that displays books on user searches. Users can save them to review or purchase later. 
 
+`Search` input field will return books from Google Books API. <br>
 `Save` button to save the book to the database.<br>
 `View` button to view the book on Google Books.
 
-Try it out yourself [Book Search](https://dkbooksearch.herokuapp.com/)
+This application is deployed using Heroku. (https://dkbooksearch.herokuapp.com/)
+This application's repo is on Github. (https://github.com/daniellekeefe/booksearch)
 
-This app was built with react.... whcih is awesome. [Create React App](https://github.com/facebook/create-react-app).
-
-## Deployment 
-
-This App is deployed on Heroku: [Book Search](https://dkbooksearch.herokuapp.com/)
 
 ## Technologies used
 
-MVC design pattern: Model, View, Controller.
+This app was built with react.
+Leveraging MVC design pattern: Model, View, Controller.
 
 - [MongoDB](mongodb.com)
 - [Express.js](https://expressjs.com)
@@ -29,8 +25,7 @@ MVC design pattern: Model, View, Controller.
 - [Node.js](https://nodejs.org/en/)
 
 
-- Search for books using the [Google Books API](https://developers.google.com/books/)
-
-
-
-Danielle Keefe |(https://github.com/daniellekeefe/booksearch)
+## How to use
+Navigate to the app's URL: (https://dkbooksearch.herokuapp.com/)
+Choose to search for books, or have a look at saved books. 
+Add/Remove books for the saved list. 

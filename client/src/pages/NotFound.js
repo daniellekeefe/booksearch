@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 
-function NoMatch() {
+//Handle error in the chance there are no books to return. 
+function NotFound() {
   return (
     <div>
       <Header>
@@ -11,4 +12,4 @@ function NoMatch() {
   );
 }
 
-export default NoMatch;
+export default NotFound;
