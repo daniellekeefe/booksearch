@@ -6,6 +6,7 @@ const db = require("../models");
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
 
 //used to seed the DB
+//Data came from HW directions
 const bookSeed = {
   authors: ["Suzanne Collins"],
   description:
@@ -16,7 +17,7 @@ const bookSeed = {
     "http://books.google.com/books?id=sazytgAACAAJ&dq=title:The+Hunger+Games&hl=&source=gbs_api",
   title: "The Hunger Games"
 };
-
+//Borrowed from the react book activity
 db.Book.remove({})
   .then(() => db.Book.collection.insertMany(bookSeed))
   .then(data => {

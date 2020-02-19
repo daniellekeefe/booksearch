@@ -1,5 +1,6 @@
 import axios from "axios";
 //npm i axios and leverage axios from the API
+//similar to the react book activity
 export default {
   //book query
   getBook: function(query) {
