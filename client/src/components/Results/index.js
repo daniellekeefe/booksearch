@@ -6,12 +6,13 @@ class Results extends Component {
     savedBooks: []
   };
   //life cycle https://reactjs.org/docs/react-component.html
+  //STU Ajax form delete 
   componentDidMount() {
     API.savedBooks()
       .then(savedBooks => this.setState({ savedBooks: savedBooks }))
       .catch(err => console.error(err));
   }
-  //additional details/help with the search, button etc https://dev.to/iam_timsmith/lets-build-a-search-bar-in-react-120j
+  //additional details/help with the search/Stu_ReactRouter/booksJS
   handleSave = book => {
     if (this.state.savedBooks.map(book => book._id).includes(book._id)) {
       API.deleteBook(book._id)

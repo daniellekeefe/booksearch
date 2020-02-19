@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 //nav bar https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
@@ -8,39 +7,17 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg text-light">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          Book Search
-        </Link>
+        <a className="navbar-brand" href="/"> Book Search
+        </a>
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/search"
-              className={
-                window.location.pathname === "/search"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              {" "}
-              Search
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/saved"
-              className={
-                window.location.pathname === "/saved"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Saved
-            </Link>
-          </li>
+          <a className="nav-item" href="/search"> Search |
+          </a>
+          <a className="nav-item" href= "/saved">  Saved
+          </a>
         </ul>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

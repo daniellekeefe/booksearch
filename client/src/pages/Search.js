@@ -23,7 +23,7 @@ class Search extends React.Component {
       link: bookData.volumeInfo.previewLink
     };
   };
-
+//help from Stu_ReactRouter pages
   searchBook = query => {
     API.getBook(query)
       .then(res =>
@@ -33,14 +33,13 @@ class Search extends React.Component {
       )
       .catch(err => console.error(err));
   };
-
+//input change from https://stackoverflow.com/questions/43959116/using-a-single-handleinputchange-method-to-for-multiple-input-fields-react
   handleInputChange = event => {
-    const name = event.target.name;
-    const value = event.target.value;
+    const { name, value } = event.target;
     this.setState({
       [name]: value
     });
-  };
+  }
 
   handleFormSubmit = event => {
     event.preventDefault();
