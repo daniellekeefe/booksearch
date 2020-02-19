@@ -4,7 +4,7 @@
 
 ## Description
 
-React-based Book Search app that displays books on user searches. Users can save them to review or purchase later. 
+React-based Book Search app that displays books on user searches. Users can save them to review later. 
 
 `Search` input field will return books from Google Books API. <br>
 `Save` button to save the book to the database.<br>
