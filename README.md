@@ -19,7 +19,7 @@ This application's repo is on Github. (https://github.com/daniellekeefe/booksear
 This app was built with react.
 Leveraging MVC design pattern: Model, View, Controller.
 
-- [MongoDB](mongodb.com)
+- [MongoDB](https://mongodb.com)
 - [Express.js](https://expressjs.com)
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
