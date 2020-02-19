@@ -4,11 +4,10 @@ const db = require("../models");
 module.exports = {
   findAll: function(req, res) {
     db.Book.find(req.query)
-      .sort({ date: -1 })
       .then(dbModel => res.json(dbModel))
       .catch(err => {
         console.error(err);
-        res.status(422).json(err);
+        res.status().json(err);
       });
   },
   findById: function(req, res) {
@@ -16,7 +15,7 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => {
         console.error(err);
-        res.status(422).json(err);
+        res.status().json(err);
       });
   },
   create: function(req, res) {
@@ -24,7 +23,7 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => {
         console.error(err);
-        res.status(422).json(err);
+        res.status().json(err);
       });
   },
   update: function(req, res) {
@@ -32,7 +31,7 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => {
         console.error(err);
-        res.status(422).json(err);
+        res.status().json(err);
       });
   },
   remove: function(req, res) {
@@ -41,7 +40,7 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => {
         console.error(err);
-        res.status(422).json(err);
+        res.status().json(err);
       });
   }
 };

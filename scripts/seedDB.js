@@ -5,6 +5,7 @@ const db = require("../models");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
 
+//used to seed the DB
 const bookSeed = {
   authors: ["Suzanne Collins"],
   description:
